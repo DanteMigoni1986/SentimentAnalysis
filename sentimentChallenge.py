@@ -14,7 +14,7 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
 # Retrieve Tweets
-public_tweets = api.search_tweets(q='Trump', count= 5, lang='es')
+public_tweets = api.search_tweets(q='8DeMarzo', count= 5, lang='es')
 
 print('El numero de tweets son:', len(public_tweets))
 
